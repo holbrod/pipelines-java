@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: windows-latest
+  vmImage: DESKTOP-BT0L74N
 
 steps:
 - task: Maven@3
