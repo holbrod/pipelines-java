@@ -12,7 +12,7 @@ pool:
 steps:
 - task: Maven@3
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: 'D:\repos\pipelines-java\pom.xml'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.17'
     jdkArchitectureOption: 'x64'
